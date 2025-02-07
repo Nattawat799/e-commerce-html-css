@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFStore | Ecommerce Web Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body>
+
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="125px"></a> 
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"> <img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" 
+            onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Give Your Workout <br> A New Style!</h1>
+                <p>Success isn't always about greatness, it's about consistency.<br> Consistent hard work gains success. Greatness will come</p>
+                <p>By - Nattawat S.</p>
+                <a href="" class="btn">Explore Now &#8594;</a>
+            </div>
+
+            <div class="col-2">
+                <img src="images/image1.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------- featured categories ---------------------->
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/category-1.jpg">
+            </div>
+            <div class="col-3">
+                <img src="images/category-2.jpg">
+            </div>
+            <div class="col-3">
+                <img src="images/category-3.jpg">
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<!------------------------ featured products ------------------------>
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="product-details.html"><img src="images/product-1.jpg"></a>
+            <a href="product-details.html"><h4> Super red shoes </h4></a>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+            </div>
+            <p> $199.90 </p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-2.jpg">
+            <h4> Super orange shoes </h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+            </div>
+            <p> $239.90 </p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-3.jpg">
+            <h4> Super white shoes </h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+            </div>
+            <p> $249.98 </p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-4.jpg">
+            <h4> Super mix shoes </h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+            </div>
+            <p> $199.98 </p>
+        </div>
+    </div>
+
+
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-5.jpg">
+            <h4> Muscle t-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+            </div>
+            <p> $199.90 </p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-6.jpg">
+            <h4> coolest T-shirt alive </h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+            </div>
+            <p> $139.90 </p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-7.jpg">
+            <h4> Necklace </h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+            </div>
+            <p> $449.98 </p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-8.jpg">
+            <h4> Super Necklace </h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+            </div>
+            <p> $499.98 </p>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.jpg">
+                <h4> coolest pants on earth</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                </div>
+                <p> $149.90 </p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-10.jpg">
+                <h4> the best pants on the planet </h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                </div>
+                <p> $139.90 </p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-11.jpg">
+                <h4> diamond bracelet </h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                </div>
+                <p> $1249.98 </p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-12.jpg">
+                <h4> Ultra luxary bracelet </h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                </div>
+                <p> $1499.98 </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------- Offer ------------------------->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/exclusive.png" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Exclusive Rolex Watch for Sale</p>
+                <h1>Timeless Elegance & Precision</h1>
+                <small>Elevate your style with this authentic Rolex timepiece, 
+                    renowned for its impeccable craftsmanship and luxury design. Whether you're looking for 
+                    a statement piece or a long-lasting investment, this Rolex offers unmatched precision, durability, and class.</small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------- testimonial --------------->
+
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left" ></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat dolor, 
+                    rem facere quo quidem officia nostrum reprehenderit deleniti! Quod quos sint deserunt
+                     ex illum cumque! Qui sed error tempore?</p>
+                     <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                    </div>
+                    <img src="images/user1.jpg">
+                    <h3>Sean Macon</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left" ></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat dolor, 
+                    rem facere quo quidem officia nostrum reprehenderit deleniti! Quod quos sint deserunt
+                     ex illum cumque! Qui sed error tempore?</p>
+                     <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                    </div>
+                    <img src="images/user2.jpg">
+                    <h3>Jason Alibaba</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left" ></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat dolor, 
+                    rem facere quo quidem officia nostrum reprehenderit deleniti! Quod quos sint deserunt
+                     ex illum cumque! Qui sed error tempore?</p>
+                     <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                    </div>
+                    <img src="images/user3.jpg">
+                    <h3>John Smith</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------- brands ------------------------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logo-rolex.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-paypal.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-h&m.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-cola.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-lambo.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------- footer ---------------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download app for IOS and Android mobile phone</p>
+                <div class="app-logo">
+                    <img src="images/app-store.png">
+                    <img src="images/play-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo.png">
+                <p>Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog post</li>
+                    <li>Return Policy</li>
+                    <li>Memberships</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow for more</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="bla">BLA BLA BLA - Nattawat S 2024</p>
+    </div>
+</div>
+
+<!------------------- JS for toggle menu ---------------------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px" ;
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px") 
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+</body>
+</html>
